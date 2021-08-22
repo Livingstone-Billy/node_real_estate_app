@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="/login" method="post">
+        <div class="imgcontainer">
+            <img src="avatar2.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" placeholder="Enter your email" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password" placeholder="Enter your password" id="psw" required>
+            <input type="checkbox" onclick="showPassword()"> Show Password
+            <button type="submit">Login</button>
+            <label>
+                <p>Dont have an account? sign up<a href="signup.html"> here</a></p>
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn" onclick="parent.location='/public/home.html'">Cancel</button>
+            <span class="psw">Forgot <a href="forgot.html">password?</a></span>
+        </div>
+    </form>
+    <script src="conf.js"></script>
+</body>
+</html>

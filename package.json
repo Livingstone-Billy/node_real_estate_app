@@ -1,0 +1,29 @@
+{
+  "name": "loger",
+  "version": "1.0.0",
+  "description": "simple node app to connect house seekers to landlords",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "landlord",
+    "rent",
+    "house"
+  ],
+  "author": "BillyLivingstone",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

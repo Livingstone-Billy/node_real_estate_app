@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    background-color: #fff ;
+    padding-bottom: 0 ;
+    margin-bottom: 0;
+    overflow-x: hidden
+}
+
+.card {
+    color: #383431;
+    background-color: #FFFFFF 
+}
+
+h5 {
+    font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360)))
+}
+
+.fa {
+    cursor: pointer;
+    font-size: 21px;
+    margin: 5px 10px 5px 10px 
+}
+
+button {
+    font-size: calc(13px + (16 - 13) * ((100vw - 360px) / (1600 - 320)));
+    border-radius: 0 ;
+    padding-left: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360)));
+    padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360)));
+    padding-top: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360)));
+    padding-bottom: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360)));
+    background-color: #383431;
+    border: none 
+}
+
+button:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline-width: 0
+}
+
+li {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 5px;
+    transform: translate3d(0, -2px, 0)
+}
+
+input::placeholder {
+    vertical-align: middle;
+    color: rgb(196, 193, 193);
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360)))
+}
+
+input {
+    border-radius: 2px;
+    background: transparent ;
+    color: #FFFFFF 
+}
+
+input:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none ;
+    box-shadow: none;
+    outline-width: 0;
+    border-color: #FFFFFF
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    width: calc(30px + 6 * ((100vw - 320px) / 680)) !important
+}
+
+li:first-child {
+    font-size: 18px;
+    font-weight: bold
+}
+
+footer {
+    background-color: #383431;
+    color: #FFFFFF;
+}
+
+small {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360)));
+}
+
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360)));
+    color: rgb(196, 193, 193);
+}
+
+.social {
+    position: relative;
+    left: -10px
+}
+
+.Subscribe {
+    background-color: #FFFFFF;
+    color: #383431;
+    font-weight: bold;
+}
+
+li:not(:first-child) {
+    color: rgb(196, 193, 193);
+}
